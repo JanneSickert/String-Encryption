@@ -40,7 +40,7 @@ std::string decrypt(std::string text, std::string key) {
 char add(char a, char b) {
 	int c = int(a) + int(b);
 	if (c > UNI_MAX) {
-		c = c - UNI_MAX;
+		c = c - UNI_MAX - 1;
 	}
 	char d = char(c);
 	return d;
