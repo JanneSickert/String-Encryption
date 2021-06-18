@@ -1,6 +1,7 @@
 # Visual Studio
 .vs/
 Debug/
+x64/
 *.sln
 *.vcxproj
 *.filters
